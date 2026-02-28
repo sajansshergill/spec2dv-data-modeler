@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/spec2dv/cli.py
+src/spec2dv/db.py
+src/spec2dv/export_dv.py
+src/spec2dv/export_json.py
+src/spec2dv/export_xml.py
+src/spec2dv/ingest.py
+src/spec2dv/models.py
+src/spec2dv/validate.py
+src/spec2dv.egg-info/PKG-INFO
+src/spec2dv.egg-info/SOURCES.txt
+src/spec2dv.egg-info/dependency_links.txt
+src/spec2dv.egg-info/entry_points.txt
+src/spec2dv.egg-info/requires.txt
+src/spec2dv.egg-info/top_level.txt

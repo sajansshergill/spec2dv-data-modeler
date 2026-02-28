@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "timer.TMR_CTRL.MODE": {
+      "legal_enum": [
+        {
+          "name": "ONE_SHOT",
+          "value": 0
+        },
+        {
+          "name": "PERIODIC",
+          "value": 1
+        },
+        {
+          "name": "PWM",
+          "value": 2
+        }
+      ]
+    },
+    "timer.TMR_CTRL.RSVD": {
+      "reserved": true
+    }
+  },
+  "reserved_policy": "READS_AS_ZERO_WRITES_IGNORED"
+}

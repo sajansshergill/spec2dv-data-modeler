@@ -1,0 +1,55 @@
+{
+  "ip_blocks": [
+    {
+      "name": "timer",
+      "base_addr": 1073741824,
+      "variant": null,
+      "registers": [
+        {
+          "name": "TMR_CTRL",
+          "offset": 0,
+          "width": 32,
+          "fields": [
+            {
+              "name": "EN",
+              "lsb": 0,
+              "msb": 0,
+              "access": "RW",
+              "reset": 0,
+              "enum": null
+            },
+            {
+              "name": "MODE",
+              "lsb": 1,
+              "msb": 2,
+              "access": "RW",
+              "reset": 0,
+              "enum": [
+                {
+                  "name": "ONE_SHOT",
+                  "value": 0
+                },
+                {
+                  "name": "PERIODIC",
+                  "value": 1
+                },
+                {
+                  "name": "PWM",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "RSVD",
+              "lsb": 3,
+              "msb": 31,
+              "access": "RO",
+              "reset": 0,
+              "enum": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

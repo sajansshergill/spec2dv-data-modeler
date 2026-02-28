@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<spec><ip_block name="timer" base_addr="0x40000000" variant=""><register name="TMR_CTRL" offset="0x0" width="32"><field name="EN" lsb="0" msb="0" access="RW" reset="0" /><field name="MODE" lsb="1" msb="2" access="RW" reset="0"><enum><value name="ONE_SHOT" value="0" /><value name="PERIODIC" value="1" /><value name="PWM" value="2" /></enum></field><field name="RSVD" lsb="3" msb="31" access="RO" reset="0" /></register></ip_block></spec>

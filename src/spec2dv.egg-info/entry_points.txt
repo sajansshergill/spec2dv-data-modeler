@@ -1,0 +1,2 @@
+[console_scripts]
+spec2dv = spec2dv.cli:app
